@@ -20,7 +20,7 @@ export function jsonToVideos (json:string):Video[] {
         }
         result.push(video);
     }
-    logger.info('[SUCCESS] jsonToVideo');
+    logger.info('[SUCCESS] jsonToVideo : ' + result.length);
     return result;
 };
 
